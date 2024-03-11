@@ -1,5 +1,5 @@
 # Performance Monitor
-![python-version](https://img.shields.io/badge/python->=3.10.12-green.svg)
+![python-version](https://img.shields.io/badge/python->=3.10.12-green.svg)  
 Suport OS: Linux
 ## Overview
 The Performance Monitor is a Python script designed to monitor and log the performance metrics of a specific process on your system. It tracks CPU, RAM, GPU usage, and VRAM utilization over time. This tool is particularly useful for analyzing the resource consumption of applications, especially in development and testing environments.
@@ -20,7 +20,7 @@ To run the Performance Monitor, you need to have the following Python libraries 
 
 Install these dependencies using pip:
 ```sh=
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## Installation
@@ -31,7 +31,7 @@ Clone the repository or download the `PerformanceMonitor.py` script to your loca
 2. Navigate to the directory containing `PerformanceMonitor.py`.
 3. Run the script with the command you want to monitor as an argument:
 ```sh=
-python PerformanceMonitor.py <command or PID number>
+python3 PerformanceMonitor.py <command or PID number>
 ```
 Replace `<command or PID number>` with the command you wish to monitor (e.g., `python your_script.py` or `55899`).
 
