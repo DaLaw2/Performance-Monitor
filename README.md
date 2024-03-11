@@ -1,5 +1,7 @@
 # Performance Monitor
 ![python-version](https://img.shields.io/badge/python->=3.10.12-green.svg)  
+![ubuntu-version](https://img.shields.io/badge/ubuntu-=22.04-red)
+
 Suport OS: Linux
 ## Overview
 The Performance Monitor is a Python script designed to monitor and log the performance metrics of a specific process on your system. It tracks CPU, RAM, GPU usage, and VRAM utilization over time. This tool is particularly useful for analyzing the resource consumption of applications, especially in development and testing environments.
