@@ -1,0 +1,6 @@
+psutil 
+openpyxl 
+pynvml
+pandas
+matplotlib
+trio
