@@ -29,8 +29,8 @@ Clone the repository or download the `PerformanceMonitor.py` script to your loca
 1. Open a terminal or command prompt.
 2. Navigate to the directory containing `PerformanceMonitor.py`.
 3. Run the script with the command you want to monitor as an argument:
-```
-python PerformanceMonitor.py <command>
+```sh=
+python PerformanceMonitor.py <command or PID number>
 ```
 Replace `<command or PID number>` with the command you wish to monitor (e.g., `python your_script.py` or `55899`).
 
