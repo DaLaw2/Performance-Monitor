@@ -1,5 +1,5 @@
 # Performance Monitor
-![python-version](https://img.shields.io/badge/python->=3.10.12-green.svg)  
+![python-version](https://img.shields.io/badge/python->=3.10.12-green.svg) 
 ![ubuntu-version](https://img.shields.io/badge/ubuntu-=22.04-red)
 
 Suport OS: Linux
