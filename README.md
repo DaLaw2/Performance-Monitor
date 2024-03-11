@@ -18,8 +18,8 @@ To run the Performance Monitor, you need to have the following Python libraries 
 - `pynvml` for NVIDIA GPU monitoring.
 
 Install these dependencies using pip:
-```
-pip install psutil openpyxl pynvml
+```sh=
+pip install -r requirements.txt
 ```
 
 ## Installation
@@ -32,7 +32,7 @@ Clone the repository or download the `PerformanceMonitor.py` script to your loca
 ```
 python PerformanceMonitor.py <command>
 ```
-Replace `<command>` with the command you wish to monitor (e.g., `python your_script.py`).
+Replace `<command or PID number>` with the command you wish to monitor (e.g., `python your_script.py` or `55899`).
 
 ## Output
 The script will create an Excel file named `Performance.xlsx` in the same directory, containing the performance metrics logged during the monitoring period.
